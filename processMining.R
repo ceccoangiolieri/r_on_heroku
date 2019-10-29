@@ -40,5 +40,4 @@
     
   
    
-processmonitR::activity_dashboard(events)  
   
