@@ -28,7 +28,7 @@ library(stringr)
 library(lubridate)
 
 # load BPI Challenge 2017 data set ####
-data <- readr::read_csv('./00-data/loanapplicationfile.csv',
+data <- readr::read_csv('./00-data/dataset_disco.csv',
                          locale = locale(date_names = 'en',
                                          encoding = 'ISO-8859-1'))
 
