@@ -35,7 +35,7 @@
     filter_activity_frequency(percentage = 1.0) %>% # show only most frequent activities
     filter_trace_frequency(percentage = .80) %>%    # show only the most frequent traces
     process_map(render = F) %>% 
-    export_graph(file_name = '/Users/francescobranda/eclipse-workspace/Moving+\ Analytics\ Platform/WebContent/dist/processMap.svg',
+    export_graph(file_name = 'static/processMap.svg',
                  file_type = 'SVG') 
     
   
