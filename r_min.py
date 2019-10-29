@@ -42,7 +42,7 @@ def batch_r(str_source):
     return None
 
 def index(request):
-    batch_r('processMining.R')
+    batch_r('./01-scripts/00_pm-bupar_MAIN.R')
 
     return render(request, 'index.html')
 
