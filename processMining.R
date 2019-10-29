@@ -1,16 +1,3 @@
-  # load libraries ####
-  library(bupaR)
-  library(edeaR)
-  library(processmapR)
-  library(eventdataR)
-  library(readr)
-  library(tidyverse)
-  library(DiagrammeR)
-  library(ggplot2)
-  library(stringr)
-  library(processmonitR)
-  library(lubridate)
-  library(processanimateR)
   
   data <- readr::read_csv('/Users/francescobranda/Desktop/dataset_disco.csv')
   
