@@ -14,7 +14,7 @@ settings.configure(
         'django.middleware.csrf.CsrfViewMiddleware',
         'django.middleware.clickjacking.XFrameOptionsMiddleware',
     ),
-    ALLOWED_HOSTS = [ 'thawing-lowlands-10894.herokuapp.com',
+    ALLOWED_HOSTS = [ 'r-in-heroku.herokuapp.com',
                       'localhost'],
     BASE_DIR = BASE_DIR,
     STATIC_URL = '/static/',
