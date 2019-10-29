@@ -1,5 +1,5 @@
   
-  data <- readr::read_csv('/Users/francescobranda/Desktop/dataset_disco.csv')
+  data <- readr::read_csv('dataset_disco.csv')
   
   # change timestamp to date var
   data$starttimestamp = as.POSIXct(data$'Start Timestamp', 
